@@ -42,7 +42,7 @@
 
 <body>
      <div class="half" style="background-color: #EFEFEF!important">
-          <div class="bg order-1 order-md-2" style="background-image: url('assets/auth/images/background.jpg');">
+          <div class="bg order-1 order-md-2" style="background-image: url('assets/frontend/images/dash.jpg');">
           </div>
           <div class="contents order-2 order-md-1">
 
@@ -54,6 +54,7 @@
                                    <form action="auth/proses" method="POST" class="login100-form validate-form">
                                         <div class="text-center mb-5">
                                              <h3>Login to <strong>REK-ON Application</strong></h3>
+                                             <p>Repository & Kuesioner Online</p>
                                              <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
                                         </div>
                                         <?php if ($this->session->flashdata('notifikasi')){ ?>
@@ -98,7 +99,7 @@
                               </div>
                               <div class="text-center p-t-100">
                                    <a class="txt2" href="" style="text-decoration: none;">Copyright 2022 &copy;
-                                        Aplika REK-ON Created by mohfiqih_
+                                        REK-ON Application Created by mohfiqih_
                                    </a>
                               </div>
                          </div>
